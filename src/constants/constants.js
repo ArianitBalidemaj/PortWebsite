@@ -104,16 +104,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Backend Developer",
-    company_name: "JM Learning LLC",
+    title: "Software Engineer Intern",
+    company_name: "NACEX",
     icon: jm,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2023 - August 2023",
     points: [
-      "Provided technical support for professors and students in a fast-paced and dynamic environment.",
-      "Assisted in resolving technology issues and ensured seamless integration of technology in academic activities.",
-      "Collaborated with cross-functional teams to provide best-in-class technology solutions for faculty and students.",
-      "Contributed to creating a technologically advanced and efficient learning environment for the university community.",
+      "Spearheaded automation initiatives at NAVEX using JavaScript and WebdriverIO, resulting in notable improvements in process efficiency and reliability.",
+      "Demonstrated proficiency in SQL, Angular, and C# through active participation in diverse projects, including page conversion, automation testing, and full-stack app development.",
+      "Collaborated closely with experienced mentors to enhance skills and contribute to innovative solutions, gaining comprehensive insights into the software development lifecycle.",
+      "Successfully broadened understanding of software engineering principles and practical applications through hands-on experience during the Remote Software Engineering Internship at NAVEX.",
     ],
   },
   {
@@ -133,23 +133,6 @@ const experiences = [
 
 const projects = [
   {
-    name: "Movie Picker App",
-    description:
-      "An app that helps the user pick their favorite movie based on their mood. It is geared towards couples that have a problem choosing what movie to watch.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: movie,
-    source_code_link: "https://github.com/",
-  },
-  {
     name: "Door-Lock",
     description:
       "A physical doorlock that uses software help from C++ and C to create a doorlock that can be opened with face ID. It has a mechanism built using an arudino.",
@@ -159,7 +142,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "SQL",
+        name: "Arduino",
         color: "green-text-gradient",
       },
       {
@@ -168,28 +151,24 @@ const projects = [
       },
     ],
     image: lock,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ArianitBalidemaj/DoorLock",
   },
   {
-    name: "Syllabus Reader",
+    name: "311 Boston Tracker",
     description:
-      "A website that allows students to upload their syllabus and have it create a calendar with all their due dates for assignments. Useful for any college student planning their semester.",
+      "A thorough analysis of the 311 Service Hotline in Boston and the trends to be analyzed. The analysis was done using Python and its libraries.",
     tags: [
       {
-        name: "React",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "Python",
+        name: "Python Libraries",
         color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
       },
     ],
     image: syllabus,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ArianitBalidemaj/Boston311TrackerProject",
   },
 ];
 
